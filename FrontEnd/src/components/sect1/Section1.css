@@ -1,0 +1,19 @@
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 70px;
+    gap: 50px;
+}
+.sect1Text{
+    display: flex;  justify-content: start;    align-items: start;    
+    flex-direction: column;
+    gap: 30px;
+}
+.sect1Text span{
+    color: gray;
+    font-size: 14px;
+}
+.sect1Text h3{
+    font-size: 50px;
+}

@@ -1,0 +1,23 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+
+  }
+  th, td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  /* CSS for table responsiveness */
+  @media screen and (max-width: 600px) {
+    table {
+      overflow-x: auto;
+      display: block;
+    }
+    th, td {
+      white-space: nowrap;
+    }
+  }

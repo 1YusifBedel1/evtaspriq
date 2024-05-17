@@ -1,0 +1,26 @@
+nav{
+    display: flex ;
+    justify-content: space-between ;
+    align-items: center ;
+    padding: 30px 300px;
+    position: relative;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 101;
+}
+ul{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    gap: 30px;
+
+}
+.nava{
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+}
+nav a{
+    color: white;
+}

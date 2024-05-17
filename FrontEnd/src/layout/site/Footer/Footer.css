@@ -1,0 +1,45 @@
+.footer {
+    font-size: 16px;
+    background: #27272b;
+    padding: 8em 0;
+    p {
+      color: rgba(255, 255, 255, 0.5);
+    }
+    h2 {
+      font-weight: normal;
+      color: #fff;
+      margin-bottom: 40px;
+      font-size: 24px;
+    }
+    a {
+      color: rgba(255, 255, 255, 0.5) !important;
+      &:hover {
+        color: #fff !important;
+      }
+    }
+    input {
+      padding-right: 50px;
+      background: transparent !important;
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      color: rgba(255, 255, 255, 0.5) !important;
+    }
+  }
+  .footer-social li a {
+    height: 50px;
+    width: 50px;
+    display: block;
+    float: left;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    position: relative;
+    i {
+      color: #fff;
+      position: absolute;
+      font-size: 26px;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+    }
+  }
