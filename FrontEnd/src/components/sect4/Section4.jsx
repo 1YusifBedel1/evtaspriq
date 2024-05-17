@@ -2,6 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import "./Section4.css";
 import { Link } from "react-router-dom";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 const Section4 = () => {
     const settings = {
         dots: true,
